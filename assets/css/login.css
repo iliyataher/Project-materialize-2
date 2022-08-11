@@ -1,0 +1,107 @@
+main{
+    display: grid;
+    grid-template-columns:  auto;
+}
+/* login start */
+
+.login-section{
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+    text-align: center;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-div{
+    width: 300px;
+    height: auto;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    background-image: url(/assets/images/top_slider/desktop_banner.jpg);
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+}
+
+.login-div div{
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.login-div h5{
+    text-align: center;
+    font-size: 35px;
+}
+
+
+
+.switch label{
+    font-size: 15px;
+}
+
+.linkForForm p{
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-login{
+    width: 100%;
+}
+
+/* login end */
+
+
+/* signUp start */
+
+.signUp-section{
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signUp-div{
+    width: 300px;
+    height: auto;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    background-image: url(/assets/images/top_slider/desktop_banner.jpg);
+    backdrop-filter: blur(2px);
+    border-radius: 10px;
+}
+
+.signUp-div div{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.signUp-div h5{
+    text-align: center;
+    font-size: 35px;
+}
+
+
+
+.switch label{
+    font-size: 15px;
+}
+
+.linkForForm{
+    text-align: center;
+}
+
+.btn-login{
+    width: 100%;
+}
+
+
+/* signUp end  */
+

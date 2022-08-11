@@ -1,0 +1,99 @@
+.main-image{
+    margin-top: 100px;
+    background-color: white;
+    width: 90%;
+    margin-right: 60px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-image img{
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.main-image-avatar{
+    width: 6.6rem;
+    height: 6.6rem;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    border-radius: 50%;
+    z-index: 3;
+    margin-bottom: 15px;
+}
+
+.main-image-avatar img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.main-svg{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.main-svg svg{
+    position: relative;
+    display: block;
+}
+
+.main-text{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.main-text h5{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.main-text h5 span{
+    padding: 5px;
+}
+
+.linksMaghale h4{
+    margin-top: 100px;
+}
+
+.link{
+    text-align: center;
+}
+
+.link a{
+    display: block;
+    text-align: center;
+    margin: 15px;
+    font-size: 20px;
+}
+
+.text h4 , .text h5{
+    text-align: center;
+}
+
+.text img{
+    width: 90%;
+}
+
+.opinion{
+    background-color: white;
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+    border-radius: 10px;
+}
+
+.opinion div{
+    padding: 10px;
+}
+
+.toast{
+    background-color:white;
+    color: black;
+    font-size: 25px;
+}
